@@ -272,6 +272,7 @@ async def private_interface(interaction: discord.Interaction):
 # -------------------
 # Run Bot
 # -------------------
+webserver.keep_alive()
 bot.run(token)
 
 
