@@ -4,6 +4,7 @@ from discord import app_commands
 from dotenv import load_dotenv
 import os
 import random
+import webserver
 
 # Load environment variables
 load_dotenv()
